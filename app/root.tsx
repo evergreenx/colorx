@@ -11,6 +11,9 @@ import {
 
 import styles from "./tailwind.css"
 
+// Supports weights 100-900
+import '@fontsource-variable/outfit/wght.css';
+
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: styles },
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
