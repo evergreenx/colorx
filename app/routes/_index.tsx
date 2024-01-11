@@ -1,6 +1,8 @@
 import type { MetaFunction } from "@remix-run/node";
 import { motion } from "framer-motion";
 import { Link } from "@remix-run/react";
+import { useLottie } from "lottie-react";
+import LoaerJson from "../assets/loader.json";
 
 export const meta: MetaFunction = () => {
   return [
@@ -18,7 +20,9 @@ const variants1 = {
   hidden: { filter: "blur(10px)", opacity: 0 },
   visible: { filter: "blur(0px)", opacity: 1 },
 };
+
 export default function Index() {
+
   return (
     <motion.section
       initial="hidden"
@@ -60,6 +64,8 @@ export default function Index() {
         >
           <Link to={"/generate"}>Generate</Link>
         </motion.button>
+
+       
       </div>
     </motion.section>
   );
