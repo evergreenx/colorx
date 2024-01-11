@@ -3,7 +3,18 @@
 @tailwind utilities;
 
 
+@font-face {
+    font-family: "ergonic";
+    src: url("../app/assets/Ergonic-Font/Ergonic.ttf");
+  }
+
 .outfit {
 
     font-family: 'Outfit Variable', sans-serif;
+}
+
+
+.ergonic {
+
+    font-family: 'ergonic';
 }

@@ -37,7 +37,7 @@ export default function Index() {
       <div className="hero mx-auto flex flex-col justify-center items-center h-screen p-5">
         <motion.h1
           variants={FADE_UP_ANIMATION_VARIANTS}
-          className="lg:text-[72px]  text-3xl font-bold lg:w-[712px] w-full  text-center  leading-tight "
+          className="lg:text-[72px] ergonic  text-3xl font-bold lg:w-[712px] w-full  text-center  leading-tight "
         >
           Instant Color Magic with ColorX
         </motion.h1>
