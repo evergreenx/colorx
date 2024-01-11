@@ -1,38 +1,42 @@
-# Welcome to Remix!
+# ColorX
 
-- [Remix Docs](https://remix.run/docs)
+ColorX is a color palette generator built with remix
 
-## Development
+## Features
 
-From your terminal:
+- **Color Palette Generation:** Create beautiful color palettes on the fly.
+- **User Interaction:** Intuitive components like ColorPicker and ColorAdjustments.
+- **Save & Export:** Store and export your custom color schemes.
+- **Responsive Design:** Enjoy a seamless experience on various devices.
+- **Random Color Generation:** Inspire creativity with random color suggestions.
 
-```sh
-npm run dev
-```
+## Getting Started
 
-This starts your app in development mode, rebuilding assets on file changes.
+1. **Clone the repository:**
 
-## Deployment
+    ```bash
+    git clone https://github.com/evergreenx/colorx
+    cd colorx
+    ```
 
-First, build your app for production:
+2. **Install dependencies:**
 
-```sh
-npm run build
-```
+    ```bash
+    npm install
+    ```
 
-Then run the app in production mode:
+3. **Run the app:**
 
-```sh
-npm start
-```
+    ```bash
+    npm start
+    ```
 
-Now you'll need to pick a host to deploy it to.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### DIY
+## Contributing
 
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-Make sure to deploy the output of `remix build`
+## License
 
-- `build/`
-- `public/build/`
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
