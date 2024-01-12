@@ -31,7 +31,7 @@ export default function colorId() {
 
   console.log(handleColorName("ff6347"), "test");
   return (
-    <div className=" bg-blue-300 h-[100vh] ">
+    <div className="  h-[100vh] ">
       <div className=" w-full flex justify-end">
         <GeneratorNavigation />
       </div>

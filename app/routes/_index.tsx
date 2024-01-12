@@ -2,7 +2,7 @@ import type { MetaFunction } from "@remix-run/node";
 import { motion } from "framer-motion";
 import { Link } from "@remix-run/react";
 import { useLottie } from "lottie-react";
-import LoaerJson from "../assets/loader.json";
+import homeLoader from "../assets/home.json";
 
 export const meta: MetaFunction = () => {
   return [
@@ -22,6 +22,16 @@ const variants1 = {
 };
 
 export default function Index() {
+
+  const options = {
+    animationData: homeLoader,
+    loop: true,
+  };
+
+  console.log();
+
+  const { View } = useLottie(options);
+
 
   return (
     <motion.section
@@ -60,12 +70,17 @@ export default function Index() {
           animate="visible"
           transition={{ duration: 1 }}
           variants={variants1}
-          className=" px-[8px] outfit py-[16px] w-[116px] bg-black rounded-[33px] text-white text-sm text-center "
+          className=" px-[8px] outfit py-[16px] z-[99] w-[116px] bg-black rounded-[33px] text-white text-sm text-center "
         >
           <Link to={"/generate"}>Generate</Link>
         </motion.button>
 
        
+
+       <div className="animation absolute top-[7.25rem] left-9 w-[50%]">
+
+        {View}
+       </div>
       </div>
     </motion.section>
   );
