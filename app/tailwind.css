@@ -8,6 +8,12 @@
     src: url("../app/assets/Ergonic-Font/Ergonic.ttf");
   }
 
+
+  body{ 
+
+    font-family: 'Outfit Variable', sans-serif;
+
+  }
 .outfit {
 
     font-family: 'Outfit Variable', sans-serif;
