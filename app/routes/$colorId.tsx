@@ -23,9 +23,9 @@ export default function colorId() {
 
     let addHex: string = `#${colorHex}`;
 
-    console.log(addHex, "addHex");
 
-    console.log(colord(addHex).toName());
+
+  
     return colord(addHex).toName({ closest: true });
   };
 
